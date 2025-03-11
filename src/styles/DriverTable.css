@@ -1,0 +1,136 @@
+.driver-table {
+  width: 1140px;
+  height: 70px;
+  border-collapse: separate;
+  border-spacing: 0 19px;
+  background-color: white;
+  text-align: center;
+}
+
+.driver-table th,
+.driver-table td {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.driver-table thead {
+  background-color: #203c8a;
+  color: white;
+}
+
+.driver-table thead th:nth-child(1),
+.driver-table td:nth-child(1) {
+  width: 42px;
+  height: 10px;
+  gap: 10px;
+  padding-top: 15px;
+  padding-right: 9px;
+  padding-bottom: 15px;
+  padding-left: 9px;
+  border-right-width: 3px;
+}
+
+.driver-table thead th:nth-child(2),
+.driver-table td:nth-child(2) {
+  width: 109px;
+  height: 10px;
+  gap: 5px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  border-right-width: 3px;
+}
+
+.driver-table thead th:nth-child(3),
+.driver-table td:nth-child(3) {
+  width: 211px;
+  height: 10px;
+  gap: 10px;
+  padding-top: 20px;
+  padding-right: 49px;
+  padding-bottom: 20px;
+  padding-left: 49px;
+  border-right-width: 3px;
+}
+
+.driver-table thead th:nth-child(4),
+.driver-table td:nth-child(4) {
+  width: 215px;
+  height: 10px;
+  gap: 10px;
+  padding-top: 25px;
+  padding-right: 8px;
+  padding-bottom: 25px;
+  padding-left: 8px;
+  border-right-width: 3px;
+}
+
+.driver-table thead th:nth-child(5),
+.driver-table td:nth-child(5) {
+  width: 212px;
+  height: 10px;
+  gap: 18px;
+  padding-top: 23px;
+  padding-right: 15px;
+  padding-bottom: 23px;
+  padding-left: 15px;
+  border-right-width: 3px;
+}
+
+.driver-table thead th:nth-child(6),
+.driver-table td:nth-child(6) {
+  width: 189px;
+  height: 10px;
+  gap: 6px;
+  padding-top: 25px;
+  padding-right: 21px;
+  padding-bottom: 25px;
+  padding-left: 21px;
+  border-right-width: 3px;
+}
+
+.driver-table thead th:nth-child(7),
+.driver-table td:nth-child(7) {
+  width: 141px;
+  height: 10px;
+  gap: 6px;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  border-right-width: 3px;
+}
+
+.driver-table tr {
+  width: 1140px;
+  height: 10px;
+  padding-right: 16px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+}
+
+.driver-table td {
+  width: 42px;
+  height: 10px;
+  padding-top: 15px;
+  padding-right: 9px;
+  padding-bottom: 15px;
+  padding-left: 9px;
+  border-right-width: 3px;
+  background: #f3f3f3;
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.status.active {
+  color: green;
+}
+
+.status.idle {
+  color: red;
+}

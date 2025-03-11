@@ -1,0 +1,228 @@
+/* Details Container */
+.view-info .view-info-contents {
+  display: flex;
+  flex-direction: row;
+  gap: 85px;
+}
+
+/* Details Container Main Heading */
+.view-info .view-info-main-heading {
+  width: 59px;
+  height: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
+}
+
+/* Details Rows */
+.view-info .view-info-contents .view-info-row {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Details Rows Values */
+.view-info .view-info-contents .view-info-row .view-info-values {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 3px;
+}
+
+/* Details Rows Values Heading */
+.view-info .view-info-contents .view-info-row .view-info-heading {
+  width: 200px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 60%;
+}
+
+/* Details Rows Values Value */
+.view-info .view-info-contents .view-info-row .view-info-value {
+  flex-grow: 1;
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+/* Details Rows Values Horizontal Line */
+.view-info .view-info-contents .view-info-row .view-info-line {
+  width: 450px;
+  opacity: 0.6;
+  border-width: 1px;
+}
+
+/* History Table */
+.trip-history-table {
+  width: 1140px;
+  height: 70px;
+  border-collapse: separate;
+  border-spacing: 0 19px;
+  background-color: white;
+  text-align: center;
+}
+
+/* Table Heading Content */
+.trip-history-table th,
+.trip-history-table td {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+/* Table Heading Row */
+.trip-history-table thead {
+  background-color: #203c8a;
+  color: white;
+}
+
+/* Table Column 1 */
+.trip-history-table thead th:nth-child(1),
+.trip-history-table td:nth-child(1) {
+  width: 51px;
+  height: 10px;
+  gap: 10px;
+  padding-top: 15px;
+  padding-right: 9px;
+  padding-bottom: 15px;
+  padding-left: 9px;
+  border-right-width: 3px;
+}
+
+/* Table Column 2 */
+.trip-history-table thead th:nth-child(2),
+.trip-history-table td:nth-child(2) {
+  width: 132px;
+  height: 10px;
+  gap: 5px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  border-right-width: 3px;
+}
+
+/* Table Column 3 */
+.trip-history-table thead th:nth-child(3),
+.trip-history-table td:nth-child(3) {
+  width: 211px;
+  height: 10px;
+  gap: 10px;
+  padding-top: 20px;
+  padding-right: 49px;
+  padding-bottom: 20px;
+  padding-left: 49px;
+  border-right-width: 3px;
+}
+
+/* Table Column 4 */
+.trip-history-table thead th:nth-child(4),
+.trip-history-table td:nth-child(4) {
+  width: 215px;
+  height: 10px;
+  gap: 10px;
+  padding-top: 25px;
+  padding-right: 8px;
+  padding-bottom: 25px;
+  padding-left: 8px;
+  border-right-width: 3px;
+}
+
+/* Table Column 5 */
+.trip-history-table thead th:nth-child(5),
+.trip-history-table td:nth-child(5) {
+  width: 212px;
+  height: 10px;
+  gap: 18px;
+  padding-top: 23px;
+  padding-right: 15px;
+  padding-bottom: 23px;
+  padding-left: 15px;
+  border-right-width: 3px;
+}
+
+/* Table Column 6 */
+.trip-history-table thead th:nth-child(6),
+.trip-history-table td:nth-child(6) {
+  width: 189px;
+  height: 10px;
+  gap: 6px;
+  padding-top: 25px;
+  padding-right: 21px;
+  padding-bottom: 25px;
+  padding-left: 21px;
+  border-right-width: 3px;
+}
+
+/* Table Column 7 */
+.trip-history-table thead th:nth-child(7),
+.trip-history-table td:nth-child(7) {
+  width: 189px;
+  height: 10px;
+  gap: 6px;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  border-right-width: 3px;
+}
+
+/* Table Column 8 */
+.trip-history-table thead th:nth-child(8),
+.trip-history-table td:nth-child(8) {
+  width: 141px;
+  height: 10px;
+  gap: 6px;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  border-right-width: 3px;
+}
+
+/* Table Datas Row */
+.trip-history-table tr {
+  width: 1140px;
+  height: 10px;
+  padding-right: 16px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+}
+
+/* Table Datas */
+.trip-history-table td {
+  width: 42px;
+  height: 10px;
+  padding-top: 15px;
+  padding-right: 9px;
+  padding-bottom: 15px;
+  padding-left: 9px;
+  border-right-width: 3px;
+  background: #f3f3f3;
+}
+
+/* View Data Profile Container */
+.view-profile-container {
+  display: flex;
+  flex-shrink: 0;
+  width: 187px;
+  height: 187px;
+  border-width: 1px;
+  text-align: center;
+  border: 1px solid #000000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  justify-content: center;
+  align-items: center;
+}
